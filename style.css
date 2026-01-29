@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    /* padding:0px; */
+}
+body{
+    background-color: #FFD97D;
+    text-align: center;
+    font-family: "Libre Franklin", sans-serif;
+}
+.bodydark{
+    background-color: #0D1B2A;
+    color: white;
+}
+.mode{
+    background-color: #0D1B2A;
+    color: antiquewhite;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin-top: 10px;
+}
+.lightmode{
+    background-color: #FFD97D;
+    color:black ;
+}
+.head{
+    font-size: 3rem;
+    padding-top: 3vmin;
+    /* color: #EE6055; */
+    color:brown;
+    color: rgb(255, 68, 68);
+}
+.darkhead{
+    color:#E0E1DD;
+}
+.container{
+    height:70vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.instr{
+    text-align: left;
+    height:60vmin;
+    width:60vmin;
+    font-size: 1.2rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    /* background-color: #AAF683; */
+    /* background-color: black; */
+    /* border-radius: 5px; */
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.newgame{
+    height:30vmin;
+    width:60vmin;
+    /* background-color: azure; */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.newgame span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#chance{
+    font-size: 9vmin;
+    font-family: "Jua", sans-serif;
+    color: green;
+}
+#msg{
+    /* color:#20c068; */
+    font-weight: bold;
+    font-size: 2rem;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border:none;
+    border-radius: 5px;
+    background-color: #FF9B85;
+    font-size: 8vmin;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.1);
+    font-family: "Jua", sans-serif;
+}
+.boxdark{
+    background-color: #778DA9;
+}
+
+.new{
+    padding: 0.6rem;
+    font-size: 1rem;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 1rem;
+}
+.newdark{
+    background-color: #E0E1DD;
+    color: black;
+}
